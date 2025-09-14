@@ -16,7 +16,7 @@ This guide provides step-by-step instructions to host a static website on Amazon
 - Select a region and uncheck "Block all public access" (to be configured later).
 - Click "Create bucket."
 ### Create Bucket 
-![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/create%20s3%20bucket.png)
+![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/images/create%20s3%20bucket.png)
 ### 2. Enable Static Website Hosting
 - Open the bucket in the S3 console.
 - Go to the "Properties" tab.
@@ -24,12 +24,13 @@ This guide provides step-by-step instructions to host a static website on Amazon
 - Enable it, set `index.html` as the index document, and optionally set an error document (e.g., `error.html`).
 - Save changes and note the endpoint URL (e.g., `http://my-static-website-gym-2025.s3-website-us-east-1.amazonaws.com`).
 ### Create Static Website Hosting
-![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/create%20static%20website.png)
+![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/images/create%20static%20website.png)
 ### 3. Upload Website Files
 - Go to the "Objects" tab in the bucket.
 - Upload your static files (e.g., `index.html`, `style.css`).
 - Ensure `index.html` is at the root level.
-
+### Upload project files
+![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/images/upload%20project%20file.png)
 ### 4. Set Bucket Policy
 - Go to the "Permissions" tab.
 - Edit the bucket policy with the following JSON:
