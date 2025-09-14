@@ -15,14 +15,16 @@ This guide provides step-by-step instructions to host a static website on Amazon
 - Enter a unique bucket name (e.g., `my-static-website-2025`).
 - Select a region and uncheck "Block all public access" (to be configured later).
 - Click "Create bucket."
-
+### Create Bucket 
+![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/create%20s3%20bucket.png)
 ### 2. Enable Static Website Hosting
 - Open the bucket in the S3 console.
 - Go to the "Properties" tab.
 - Scroll to "Static website hosting" and click "Edit."
 - Enable it, set `index.html` as the index document, and optionally set an error document (e.g., `error.html`).
 - Save changes and note the endpoint URL (e.g., `http://my-static-website-gym-2025.s3-website-us-east-1.amazonaws.com`).
-
+### Create Static Website Hosting
+![Home Screenshot](https://github.com/Mostafa-Kandeel/Static-Website-Hosting-on-Amazon-S3/blob/main/create%20static%20website.png)
 ### 3. Upload Website Files
 - Go to the "Objects" tab in the bucket.
 - Upload your static files (e.g., `index.html`, `style.css`).
